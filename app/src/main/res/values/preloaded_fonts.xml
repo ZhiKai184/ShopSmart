@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alike_angular</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/basic</item>
+        <item>@font/belgrano</item>
+        <item>@font/bitter</item>
+        <item>@font/bree_serif</item>
+    </array>
+</resources>

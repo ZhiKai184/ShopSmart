@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P2002640 Assignment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_item_map">ItemMap</string>
+</resources>

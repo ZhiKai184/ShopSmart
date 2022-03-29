@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81d4fc"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="82dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_image_black_24dp" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Item Name"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        tools:text="Price (SGD)" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#FF9800"
+        android:textSize="16sp"
+        tools:text="Quantity" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="2.5dp"
+        android:layout_toRightOf="@id/price"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        tools:text="Type of item" />
+
+    <TextView
+        android:id="@+id/expiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        tools:text="Expiry Date" />
+</RelativeLayout>
